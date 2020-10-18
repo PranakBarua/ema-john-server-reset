@@ -57,4 +57,4 @@ client.connect(err => {
   console.log('database connected')
 });
 
-app.listen(port)
+app.listen(process.env.PORT || port)
